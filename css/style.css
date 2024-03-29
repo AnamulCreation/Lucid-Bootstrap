@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Source Sans 3", sans-serif;
+}
+
+header{
+    width: 100%;
+    background: url(../img/banner.png) center center no-repeat;
+    background-size: cover;
+    height: 90vh;
+}
+
+header .bg-body-tertiary{
+    background-color: transparent !important;
+}
+
+header .navbar-brand img{
+    margin-right: 5px;
+}
+
+header .nav-item .nav-link{
+    color: #ffffff;
+}
+
+header .nav-item .nav-link:hover{
+    background: url(../img/line.png) center bottom no-repeat;
+}
+
+.navbar-nav .nav-link.nav-link.active{
+    color: #fff;
+    background: url(../img/line.png) center bottom no-repeat;
+}
+
+.testimonial-section{
+    background: url(../img/bg.jpg) center center no-repeat;
+    background-size: cover;
+    padding: 50px;
+    color: white;
+}
+
+.intro{
+    display: flex;
+}
+
+.price-section{
+    padding: 80px 0px;
+}
+
+.price-section .row{
+    display: flex;
+}
+
+.price-box{
+    border: 1px solid rgba(128, 128, 128, 0.4);
+}
+
+.pb-header{
+    padding: 9px 0px 0px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.4);
+}
+
+.pb-body{
+    padding: 28px 0px 15px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.4);
+}
+
+.pb-body h1 sup{
+    font-size: 20px;
+}
+
+.pb-body p{
+    font-size: 20px;
+    color: rgba(128, 128, 128, 0.4);
+}
+
+.pb-footer{
+    padding: 28px 35px 15px;
+}
+
+.btn-primary{
+    background: transparent;
+    color: blue;
+}
+
+.price-box:hover .pb-header{
+    color: blue;
+}
+
+.price-box:hover .pb-body{
+    background: blue;
+    color: white;
+}
+
+.price-box:hover .pb-body p{
+    color: white;
+}
+
+.contact{
+    background-color: gray;
+    padding: 60px 0px;
+}
+
+.contact .row{
+    color: #8462d3;
+    padding: 30px 0px;
+}
